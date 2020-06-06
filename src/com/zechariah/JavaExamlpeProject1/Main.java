@@ -873,8 +873,6 @@ public class Main {
         System.arraycopy(array2, 0, result, array1Length, array2Length);
         System.out.println(Arrays.toString(result));*/
 
-      /* 53. */
-
     }
 
 
