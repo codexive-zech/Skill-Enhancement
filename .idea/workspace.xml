@@ -7,6 +7,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaExamlpeProject1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -67,29 +79,35 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="227" key="GridCell.Tab.0.bottom" timestamp="1591386212821">
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1591469484976">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1591386212821" />
-    <state width="1323" height="227" key="GridCell.Tab.0.center" timestamp="1591386212821">
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1591469484976" />
+    <state width="385" height="610" key="GridCell.Tab.0.bottom" timestamp="1591471783918">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1591386212821" />
-    <state width="1323" height="227" key="GridCell.Tab.0.left" timestamp="1591386212821">
+    <state width="385" height="610" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1591471783918" />
+    <state width="385" height="610" key="GridCell.Tab.0.center" timestamp="1591471783918">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1591386212821" />
-    <state width="1323" height="227" key="GridCell.Tab.0.right" timestamp="1591386212821">
+    <state width="385" height="610" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1591471783918" />
+    <state width="385" height="610" key="GridCell.Tab.0.left" timestamp="1591471783918">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1591386212821" />
+    <state width="385" height="610" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1591471783918" />
+    <state width="385" height="610" key="GridCell.Tab.0.right" timestamp="1591471783918">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="385" height="610" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1591471783918" />
     <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1591386212821">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -110,13 +128,21 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="186" y="15" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591365180971" />
-    <state x="390" y="197" key="com.intellij.ide.util.TipDialog" timestamp="1591386860824">
+    <state x="390" y="197" key="com.intellij.ide.util.TipDialog" timestamp="1591441513627">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="390" y="197" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1591386860824" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1591102000217">
+    <state x="390" y="197" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1591441513627" />
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591444355959">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1591102000217" />
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1591444355959" />
+    <state x="567" y="167" key="run.anything.popup" timestamp="1591470511962">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="567" y="167" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1591470511962" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1591465377402">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1591465377402" />
   </component>
 </project>

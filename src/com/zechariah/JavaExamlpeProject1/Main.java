@@ -1,9 +1,5 @@
 package com.zechariah.JavaExamlpeProject1;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.math.BigInteger;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -729,7 +725,7 @@ public class Main {
         int decimal = convertBinaryToDecimal(binaryNumber);
         System.out.printf("%d in Binary = %d in Decimal", binaryNumber, decimal);*/
 
-       /*Convert Decimal to Binary*/
+        /*Convert Decimal to Binary*/
         /*System.out.print("Enter Decimal Number: ");
         int decimalNumber = reader.nextInt();
         long binaryNumber = convertDecimalToBinary(decimalNumber);
@@ -787,7 +783,7 @@ public class Main {
             System.out.println();
         }*/
 
-       /* 48. Program to Multiply Matrix Using Multi-dimensional Arrays*/
+        /* 48. Program to Multiply Matrix Using Multi-dimensional Arrays*/
         /*int rows = 2;
         int cols = 3;
         int[][] firstMatrix = {{3, 7, 1}, {9, 6, 2}};
@@ -831,7 +827,7 @@ public class Main {
             System.out.println();
         }*/
 
-       /* 50. Multiply Matrix using Multi-dimensional Array using function*/
+        /* 50. Multiply Matrix using Multi-dimensional Array using function*/
         /*int r1 = 2, c1 = 3;
         int r2 = 3, c2 = 2;
         int[][] firstMatrix = {{6, 2 ,6}, {9, 1, 2}};
@@ -860,7 +856,7 @@ public class Main {
         }*/
 
         /* 52. Program to Concatenate Two Arrays*/
-         /*Using ArrayCopy*/
+        /*Using ArrayCopy*/
       /*int[] array1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
       int[] array2 = {11, 12 ,13, 14, 15, 16, 17, 18, 19, 20};
 //      Get Array Length
@@ -873,10 +869,117 @@ public class Main {
         System.arraycopy(array2, 0, result, array1Length, array2Length);
         System.out.println(Arrays.toString(result));*/
 
+        /* 53. Print an Array*/
+        /*int[] myArray = {1 ,2, 3,4, 5, 6 ,7, 8, 9};
+        for (int array : myArray){
+            System.out.print(array + " ");
+        }
+
+        *//*Using Standard Library*//*
+        int[] myDigit = {1, 9, 8, 7, 6, 5, 4, 3, 2};
+        System.out.println(Arrays.toString(myDigit));*/
+
+        /* 54. Convert Character to String and Vice-Versa*/
+        /*char ch = 'R';
+        String st = Character.toString(ch);
+        System.out.println(st);*/
+
+        /*Convert char array to String*/
+        /*char[] chArray = {'a', 'e', 'i', 'o', 'u'};
+        String string = new String(chArray);
+        System.out.println(string);*/
+
+        /*Convert String to Char Array*/
+        /*String name = "Zechariah";
+        char[] chName = name.toCharArray();
+        System.out.println(Arrays.toString(chName));*/
+
+        /* 55. Check if an Array Contains a Given Value*/
+        /*check if int array contains a given value*/
+       /* int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int toFind = 8;
+        boolean found = false;
+        for (int num : numbers){
+            if (num == toFind)
+                found = true;
+            break;
+        }
+        if (found){
+            System.out.println(toFind + " Was Found");
+        } else {
+            System.out.println(toFind + " Was Not Found");
+        }*/
+
+        /*check if array contains give value using for non primitive type (String)*/
+       /* String[] names = {"Zechariah", "Joel", "Daniel"};
+        String findName = "Jane";
+        boolean hasFound = Arrays.stream(names).anyMatch(name -> name.equals(findName));
+        if (hasFound){
+            System.out.println(findName + " Was Found");
+        } else {
+            System.out.println(findName + " Was Not Found");
+        }*/
+
+        /* 56. Calculate Diff Between Two Time Period*/
+       /*Time startTime = new Time(20, 48, 12),
+               stopTime = new Time(12, 30, 9),
+               diffTime;
+       diffTime = timeDifference(startTime, stopTime);
+        System.out.printf("Time Difference -> %dh:%dm:%ds - ", startTime.hours, startTime.minutes, startTime.seconds);
+        System.out.printf("%dh:%dm:%ds = ", stopTime.hours, stopTime.minutes, stopTime.seconds);
+        System.out.printf("%dh:%dm:%ds", diffTime.hours, diffTime.minutes, diffTime.seconds);
+*/
+       /* 57. Add Complex Numbers by Passing Class to a Function*/
+        Complex complexNum1 = new Complex(9.8, 3.5),
+                complexNum2 = new Complex(4.1, 7.8),
+                diffComplex;
+        diffComplex = addComplexNumber(complexNum1, complexNum2);
+        System.out.printf("Sum = %.1f + %.1f\n", diffComplex.real, diffComplex.imag);
+
+        /*From the Bank Class*/
+        Bank bank = new Bank(100.0);
+        bank.deposit(100.0);
+        bank.withdraw(300);
+        bank.printBalance();
+        bank.deposit(1000);
+        bank.printBalance();
+        bank.withdraw(500);
+        bank.printBalance();
     }
 
+    /*Add Complex Number*/
+        public static Complex addComplexNumber(Complex complexNum1, Complex complexNum2){
+            Complex tempNum = new Complex(0.0, 0.0);
+//            Add
+            tempNum.real = complexNum1.real + complexNum2.real;
+            tempNum.imag = complexNum1.imag + complexNum2.imag;
+            return tempNum;
+        }
 
-    /*Multi-dimensional Array using function to multiply*/
+        /* Time Difference Function*/
+      /* public static Time timeDifference(Time startTime, Time stopTime){
+           Time diff = new Time(0, 0, 0);
+//           Diff Seconds
+           if (stopTime.seconds > startTime.seconds){
+               --startTime.minutes;
+               startTime.seconds += 60;
+           }
+           diff.seconds = startTime.seconds - stopTime.seconds;
+
+//           Diff Minutes
+           if (stopTime.minutes > startTime.minutes){
+               --startTime.hours;
+               startTime.minutes += 60;
+           }
+           diff.minutes = startTime.minutes - stopTime.minutes;
+
+//           Diff Hours
+           diff.hours = startTime.hours - stopTime.hours;
+           return diff;
+       }*/
+
+
+        /*Multi-dimensional Array using function to multiply*/
     /*public static int[][] multiplyMatrix(int[][] firstMatrix, int[][] secondMatrix, int r1, int c2, int c1){
 //        Multiply Matrices
         int[][] product = new int[r1][c2];
